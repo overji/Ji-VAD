@@ -21,16 +21,7 @@
 | 未结束 | 0    | 1343   | 2419   | 1392    |
 | 结束  | 2545 | 2312   | 0      | 0       |
 
-4. 使用cosyvoice2生成语音，prompt语音的来源为[CV3-Eval](https://github.com/FunAudioLLM/CV3-Eval)的测试用zero-shot语音，由于这些语音是真实环境录制的，所以使用，得到demo如下
-![[audio/audio_0.wav]]
-
-![[audio/audio_2546.wav]]
-
-![[audio/audio_4857.wav]]
-
-![[audio/audio_6200.wav]]
-
-![[audio/audio_8619.wav]]
+4. 使用cosyvoice2生成语音，prompt语音的来源为[CV3-Eval](https://github.com/FunAudioLLM/CV3-Eval)的测试用zero-shot语音，由于这些语音是真实环境录制的，所以使用，得到demo见audio文件夹下内容
 5. 在单张a100上，对smart-turn进行训练，得到结果如下:
 ![[image.png]]
 我们的训练正确率为89.3%，略高于原先smart-turn v2的87.7%
